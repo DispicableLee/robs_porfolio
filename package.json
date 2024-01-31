@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/DispicableLee/robs_porfolio#readme",
   "dependencies": {
+    "node": "16.x",
+    "nodemon": "^3.0.3",
     "react-scripts": "^5.0.1"
   }
 }
