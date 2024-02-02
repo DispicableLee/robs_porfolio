@@ -4,7 +4,8 @@
   "description": "This is my proffesional portfolio :)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
     "node": "16.x",
     "nodemon": "^3.0.3",
     "react-scripts": "^5.0.1"
-  }
+  },
+  "engines": {
+    "node": "16.x"
+  },
 }
