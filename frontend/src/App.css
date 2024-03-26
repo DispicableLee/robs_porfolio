@@ -1,8 +1,12 @@
 .app {
   display: flex;
   flex-direction: column;
-  background-color: #282c34;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #e2e2e2;
   height: 100vh;
+  /* border: 1px solid black; */
+  
 }
 
 
@@ -17,15 +21,10 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.app-overflow-scroll-main{
+  border: 1px solid black;
+  width: 90%;
+  height: 100vh;
 }
