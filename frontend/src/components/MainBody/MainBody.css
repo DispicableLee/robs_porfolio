@@ -1,5 +1,15 @@
 #main-body-main{
-    border-right: 1px solid black;
+    border: 1px solid black;
     height: 100%;
-    width: 80%;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.bio-main{
+    border-right: 1px solid black;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
 }

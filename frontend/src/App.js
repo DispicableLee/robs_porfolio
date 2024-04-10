@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import AppHeader from './components/Header/Header';
 import MainBody from './components/MainBody/MainBody';
-import ProjectsSection from './components/Projects/Projects';
+import ProjectsSection from './components/Projects/ProjectsSection';
 
 import './App.css';
 
