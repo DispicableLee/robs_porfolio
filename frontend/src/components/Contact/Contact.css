@@ -9,9 +9,7 @@
 }
 
 
-
-
-#about-me-main{
+#contact-main{
     animation-delay: 2s;
     animation: opening 1s ease;
     width: 100%;
@@ -21,8 +19,7 @@
     align-items: flex-end;
 }
 
-
-.about-me-header{
+#contact-main .header{
     border: 1px solid black;
     background-color: white;
     width: 95%;
@@ -33,14 +30,9 @@
     padding-left: 5%;
 }
 
-.about-me-header h2{
-    margin: 0;
-}
-
-.about-me{
+.contact{
     border: 1px solid black;
     height: 75%; 
     max-width: 95%;
     padding: 2%;
 }
-

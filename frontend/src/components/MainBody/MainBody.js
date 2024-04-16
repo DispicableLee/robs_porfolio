@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import "./MainBody.css"
 import AboutMe from "../AboutMe/AboutMe";
 import WhatIDo from "../WhatIDo/WhatIDo";
+import Contact from "../Contact/Contact";
 import ProjectsSection from "../Projects/ProjectsSection";
 
 export default function MainBody(){
@@ -12,7 +13,7 @@ export default function MainBody(){
             <div className="bio-main">
                 <AboutMe/>
                 <WhatIDo/>
-
+                <Contact/>
 
             </div>
             <ProjectsSection 
