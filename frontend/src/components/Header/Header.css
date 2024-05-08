@@ -22,10 +22,31 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding-left: 10%;
+    padding-right: 10%;
     background-color: whitesmoke;
+    height: 15%;
 }
 
 .header-main-header{
     animation: headerH1blink 0.7s 
+}
+
+
+.nav-links-container{
+    border: 1px solid black;
+    width: 30%;
+    height: 100%;
+}
+
+
+.nav-link{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+.nav-link img{
+    max-height: 50px;
 }
