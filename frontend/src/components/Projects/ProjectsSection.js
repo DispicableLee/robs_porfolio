@@ -1,4 +1,6 @@
 import React from "react";
+import lemonChordLogo from "../../icons/lemonchord.png"
+import pacerLogo from "../../icons/pacer.png"
 import "./ProjectsSection.css"
 
 export default function ProjectsSection({doneReading, setDoneReading}){
@@ -7,23 +9,34 @@ export default function ProjectsSection({doneReading, setDoneReading}){
 
     const projectObjectArray = [
         {
-            name: "project",
+            name: "Dear Diary",
             github: "project github link",
+            image: "image",
             live: "project live link (if applicable)",
-            description: "project description"
+            description: "Project Description"
         },
         {
             name: "LemonChord.v3",
-            github: "project github link",
+            github: "https://github.com/DispicableLee/LemonChordv3",
+            image: lemonChordLogo,
             live: "project live link (if applicable)",
-            description: "Aesthetically-overhauled spotify clone"
+            description: "Aesthetically-overhauled Spotify clone"
         },
         {
-            name: "LemonChord.v3",
-            github: "project github link",
+            name: "Pacer",
+            github: "https://github.com/garysbot/pacer",
+            image: pacerLogo,
             live: "project live link (if applicable)",
-            description: "Aesthetically-overhauled spotify clone"
+            description: "Aesthetically-overhauled Spotify clone"
+        },
+        {
+            name: "Notify",
+            github: "https://github.com/DispicableLee/not-ify",
+            image: "image",
+            live: "project live link (if applicable)",
+            description: "Its not Spotify"
         }
+
     ]
 
     const renderedProjects = projectObjectArray.map((project)=>{
@@ -34,9 +47,13 @@ export default function ProjectsSection({doneReading, setDoneReading}){
                 <div className="project-card-header">
                     <h2>{project.name}</h2>
                 </div>
-                <img alt="project image"/>
+                <img alt="project image" 
+                    src={project.image}
+                    className="project-card-image"
+                />
                 <div className="project-description">
                     <p>{project.description}</p>
+                    <a href={project.github} target="_blank">Github</a>
                 </div>
             </div>
         )
